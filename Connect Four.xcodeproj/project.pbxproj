@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6723F3F217712D8E00CFDE6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6723F3F117712D8E00CFDE6C /* UIKit.framework */; };
+		6723F3F417712D8E00CFDE6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6723F3F317712D8E00CFDE6C /* Foundation.framework */; };
+		6723F3F617712D8E00CFDE6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6723F3F517712D8E00CFDE6C /* CoreGraphics.framework */; };
+		6723F3FC17712D8E00CFDE6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6723F3FA17712D8E00CFDE6C /* InfoPlist.strings */; };
+		6723F3FE17712D8E00CFDE6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723F3FD17712D8E00CFDE6C /* main.m */; };
+		6723F40217712D8E00CFDE6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723F40117712D8E00CFDE6C /* AppDelegate.m */; };
+		6723F40417712D8E00CFDE6C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6723F40317712D8E00CFDE6C /* Default.png */; };
+		6723F40617712D8E00CFDE6C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6723F40517712D8E00CFDE6C /* Default@2x.png */; };
+		6723F40817712D8E00CFDE6C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6723F40717712D8E00CFDE6C /* Default-568h@2x.png */; };
+		6723F40B17712D8E00CFDE6C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6723F40917712D8E00CFDE6C /* MainStoryboard.storyboard */; };
+		6723F40E17712D8E00CFDE6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723F40D17712D8E00CFDE6C /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6723F3EE17712D8E00CFDE6C /* Connect Four.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connect Four.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6723F3F117712D8E00CFDE6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6723F3F317712D8E00CFDE6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6723F3F517712D8E00CFDE6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6723F3F917712D8E00CFDE6C /* Connect Four-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Connect Four-Info.plist"; sourceTree = "<group>"; };
+		6723F3FB17712D8E00CFDE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6723F3FD17712D8E00CFDE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6723F3FF17712D8E00CFDE6C /* Connect Four-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Connect Four-Prefix.pch"; sourceTree = "<group>"; };
+		6723F40017712D8E00CFDE6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6723F40117712D8E00CFDE6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6723F40317712D8E00CFDE6C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6723F40517712D8E00CFDE6C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6723F40717712D8E00CFDE6C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6723F40A17712D8E00CFDE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6723F40C17712D8E00CFDE6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6723F40D17712D8E00CFDE6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6723F3EB17712D8E00CFDE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6723F3F217712D8E00CFDE6C /* UIKit.framework in Frameworks */,
+				6723F3F417712D8E00CFDE6C /* Foundation.framework in Frameworks */,
+				6723F3F617712D8E00CFDE6C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6723F3E517712D8E00CFDE6C = {
+			isa = PBXGroup;
+			children = (
+				6723F3F717712D8E00CFDE6C /* Connect Four */,
+				6723F3F017712D8E00CFDE6C /* Frameworks */,
+				6723F3EF17712D8E00CFDE6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6723F3EF17712D8E00CFDE6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6723F3EE17712D8E00CFDE6C /* Connect Four.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6723F3F017712D8E00CFDE6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6723F3F117712D8E00CFDE6C /* UIKit.framework */,
+				6723F3F317712D8E00CFDE6C /* Foundation.framework */,
+				6723F3F517712D8E00CFDE6C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6723F3F717712D8E00CFDE6C /* Connect Four */ = {
+			isa = PBXGroup;
+			children = (
+				6723F40017712D8E00CFDE6C /* AppDelegate.h */,
+				6723F40117712D8E00CFDE6C /* AppDelegate.m */,
+				6723F40917712D8E00CFDE6C /* MainStoryboard.storyboard */,
+				6723F40C17712D8E00CFDE6C /* ViewController.h */,
+				6723F40D17712D8E00CFDE6C /* ViewController.m */,
+				6723F3F817712D8E00CFDE6C /* Supporting Files */,
+			);
+			path = "Connect Four";
+			sourceTree = "<group>";
+		};
+		6723F3F817712D8E00CFDE6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6723F3F917712D8E00CFDE6C /* Connect Four-Info.plist */,
+				6723F3FA17712D8E00CFDE6C /* InfoPlist.strings */,
+				6723F3FD17712D8E00CFDE6C /* main.m */,
+				6723F3FF17712D8E00CFDE6C /* Connect Four-Prefix.pch */,
+				6723F40317712D8E00CFDE6C /* Default.png */,
+				6723F40517712D8E00CFDE6C /* Default@2x.png */,
+				6723F40717712D8E00CFDE6C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6723F3ED17712D8E00CFDE6C /* Connect Four */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6723F41117712D8E00CFDE6C /* Build configuration list for PBXNativeTarget "Connect Four" */;
+			buildPhases = (
+				6723F3EA17712D8E00CFDE6C /* Sources */,
+				6723F3EB17712D8E00CFDE6C /* Frameworks */,
+				6723F3EC17712D8E00CFDE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Connect Four";
+			productName = "Connect Four";
+			productReference = 6723F3EE17712D8E00CFDE6C /* Connect Four.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6723F3E617712D8E00CFDE6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "iD Tech Camps";
+			};
+			buildConfigurationList = 6723F3E917712D8E00CFDE6C /* Build configuration list for PBXProject "Connect Four" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6723F3E517712D8E00CFDE6C;
+			productRefGroup = 6723F3EF17712D8E00CFDE6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6723F3ED17712D8E00CFDE6C /* Connect Four */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6723F3EC17712D8E00CFDE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6723F3FC17712D8E00CFDE6C /* InfoPlist.strings in Resources */,
+				6723F40417712D8E00CFDE6C /* Default.png in Resources */,
+				6723F40617712D8E00CFDE6C /* Default@2x.png in Resources */,
+				6723F40817712D8E00CFDE6C /* Default-568h@2x.png in Resources */,
+				6723F40B17712D8E00CFDE6C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6723F3EA17712D8E00CFDE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6723F3FE17712D8E00CFDE6C /* main.m in Sources */,
+				6723F40217712D8E00CFDE6C /* AppDelegate.m in Sources */,
+				6723F40E17712D8E00CFDE6C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6723F3FA17712D8E00CFDE6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6723F3FB17712D8E00CFDE6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6723F40917712D8E00CFDE6C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6723F40A17712D8E00CFDE6C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6723F40F17712D8E00CFDE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6723F41017712D8E00CFDE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6723F41217712D8E00CFDE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Connect Four/Connect Four-Prefix.pch";
+				INFOPLIST_FILE = "Connect Four/Connect Four-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6723F41317712D8E00CFDE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Connect Four/Connect Four-Prefix.pch";
+				INFOPLIST_FILE = "Connect Four/Connect Four-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6723F3E917712D8E00CFDE6C /* Build configuration list for PBXProject "Connect Four" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6723F40F17712D8E00CFDE6C /* Debug */,
+				6723F41017712D8E00CFDE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6723F41117712D8E00CFDE6C /* Build configuration list for PBXNativeTarget "Connect Four" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6723F41217712D8E00CFDE6C /* Debug */,
+				6723F41317712D8E00CFDE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6723F3E617712D8E00CFDE6C /* Project object */;
+}
