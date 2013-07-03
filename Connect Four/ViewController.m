@@ -26,4 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)startNewGame:(id)sender {
+    [self performSegueWithIdentifier:@"newGame" sender:sender];
+}
+
 @end

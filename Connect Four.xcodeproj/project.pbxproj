@@ -18,6 +18,7 @@
 		6723F40817712D8E00CFDE6C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6723F40717712D8E00CFDE6C /* Default-568h@2x.png */; };
 		6723F40B17712D8E00CFDE6C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6723F40917712D8E00CFDE6C /* MainStoryboard.storyboard */; };
 		6723F40E17712D8E00CFDE6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723F40D17712D8E00CFDE6C /* ViewController.m */; };
+		6723F41617712EDC00CFDE6C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723F41517712EDC00CFDE6C /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		6723F40A17712D8E00CFDE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6723F40C17712D8E00CFDE6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6723F40D17712D8E00CFDE6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6723F41417712EDC00CFDE6C /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		6723F41517712EDC00CFDE6C /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				6723F40917712D8E00CFDE6C /* MainStoryboard.storyboard */,
 				6723F40C17712D8E00CFDE6C /* ViewController.h */,
 				6723F40D17712D8E00CFDE6C /* ViewController.m */,
+				6723F41417712EDC00CFDE6C /* GameViewController.h */,
+				6723F41517712EDC00CFDE6C /* GameViewController.m */,
 				6723F3F817712D8E00CFDE6C /* Supporting Files */,
 			);
 			path = "Connect Four";
@@ -176,6 +181,7 @@
 				6723F3FE17712D8E00CFDE6C /* main.m in Sources */,
 				6723F40217712D8E00CFDE6C /* AppDelegate.m in Sources */,
 				6723F40E17712D8E00CFDE6C /* ViewController.m in Sources */,
+				6723F41617712EDC00CFDE6C /* GameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
